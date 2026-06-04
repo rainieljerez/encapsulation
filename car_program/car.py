@@ -17,7 +17,6 @@ class Car:
     def make(self) -> str:
         return self.__make
 
-    @property
     def get_speed(self):
         return self.__speed
 
