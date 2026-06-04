@@ -39,6 +39,13 @@ class CarView:
             font = ("Courier New", 11, "bold"), anchor = "w"
         ).pack(side = "left")
 
+        self._car_lbl = tk.Label(
+            hdr, text="",
+            bg=self.BG, fg=self.TEXT_DIM,
+            font=("Courier New", 10), anchor="e"
+        )
+        self._car_lbl.pack(side="right")
+
     def set_car_label(self, text: str):
         self._car_lbl.config(text=text)
 

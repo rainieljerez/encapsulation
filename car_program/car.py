@@ -18,7 +18,7 @@ class Car:
         return self.__make
 
     @property
-    def speed(self) -> int:
+    def get_speed(self):
         return self.__speed
 
     def accelerate(self) -> None:
